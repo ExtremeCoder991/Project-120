@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Lens V.S. MobileNet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body background="hexaorange.jpg">
+    <center>
+        <ol>
+            <h4>Zoom out to 80% for better background view</h4>
+            <div class="text_images_and_result">
+                <h1>Google Lens V.S. MobileNet Test 1</h1>
+                <p>You may notice that this is similar to C110 that is because I just wanted to use same objects, it
+                    would be easier.</p>
+                <br><br><br><br>
+                <li>
+                    <b>Mask - </b><img src="mask.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>A Mask</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>a blanket</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>Google Lens easily wins this one, I thought it would because in my opinion it is better and is
+                        by a famous company.</h4>
+                </div>
+
+                <br><br><br>
+
+                <h1>Google Lens V.S. MobileNet Test 2</h1>
+                <br><br><br><br>
+                <li>
+                    <b>A Ghirardelli Chocolate - </b><img src="ghirardelli.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>Pattern</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>flagpole, flagstaff</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>Neither are accurate but I guess google lens wins because the chocolate did have a pattern.</h4>
+                </div>
+
+                <br><br><br>
+
+
+                <h1>Google Lens V.S. MobileNet Test 3</h1>
+                <br><br><br><br>
+                <li>
+                    <b>A Ring - </b><img src="ring.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>A ring</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>a ring</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>Obviously its a tie because they had the same answer</h4>
+                </div>
+
+                <h1>Google Lens V.S. MobileNet Test 4</h1>
+                <br><br><br><br>
+                <li>
+                    <b>A Duracell Battery - </b><img src="durabattery.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>a book on a table</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>a battery</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>MobileNet wins again as it gave the exact answer</h4>
+                </div>
+
+                <br><br><br>
+
+                <h1>Google Lens V.S. MobileNet Test 5</h1>
+                <br><br><br><br>
+                <li>
+                    <b>An ordinary office mouse - </b><img src="opdellmouse.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>a close up of a mouse</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>undefined</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>Google Lens wins this as it had the exact result</h4>
+                </div>
+
+                <br><br><br>
+
+                <h1>Google Lens V.S. MobileNet Test 6</h1>
+                <br><br><br><br>
+                <li>
+                    <b>A Black Cloth Hanger - </b><img src="blackhanger.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>a blurry image of a person and with a second try it said a
+                        person with a
+                        suit and
+                        tie</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>a black cord</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>Google Lens wins this as a suit and tie relate to this because they are clothing which goes
+                        on a hanger</h4>
+                </div>
+
+                <br><br><br>
+
+                <h1>Google Lens V.S. MobileNet Test 7</h1>
+                <br><br><br><br>
+                <li>
+                    <b>A Xbox Controller - </b><img src="mcdcontroller.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>undefined</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>Joystick</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>MobileNet wins as it was close to the answer</h4>
+                </div>
+
+                <br><br><br>
+
+                <h1>Google Lens V.S. MobileNet Test 8</h1>
+                <br><br><br><br>
+                <li>
+                    <b>A iphone 11 - </b><img src="appaphone.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>a cellphone lying on a bed</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>a smartphone</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>Google Lens wins this because even though they both had a answer Google Lens said lying
+                        on a bed which it was</h4>
+                </div>
+
+                <br><br><br>
+
+                <h1>Google Lens V.S. MobileNet Test 9</h1>
+                <br><br><br><br>
+                <li>
+                    <b>Airpods - </b><img src="appaairpods.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>a close up of a man</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>undefined</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>Google Lens wins this as it gave me a result unlike MobileNet</h4>
+                </div>
+
+                <br><br><br>
+
+                <h1>Google Lens V.S. MobileNet Test 10</h1>
+                <br><br><br><br>
+                <li>
+                    <b>A Dixon Ticonderoga 2 HB Pencil - </b><img src="pencil110.jpeg" class="img-responsive">
+                </li><br><br>
+                <h5>Output on <b>Google Lens</b> - <span>a close up of a street</span></h5>
+                <br><br><br>
+                <h5>Output on <b>Mobilenet Model </b> - <span>a pencil</span></h5>
+                <br><br>
+                <div class="bob3">
+                    <h4>Result - </h4>
+                    <hr id="hr1">
+                    <h4>MobileNet wins because it gave the exact answer</h4>
+                </div>
+            </div>
+            <h2>After testing 10 images of various objects I have decided that Google Lens is better because it got 6
+                out of 10 correct and that beats MobileNet.</h2>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2>End of Case Study Project</h2><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </ol>
+    </center>
+</body>
+
+</html>
