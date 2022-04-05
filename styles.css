@@ -1,0 +1,11 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+}
+
+#hr1 {
+    width: 500px;
+    height: 20px;
+}
